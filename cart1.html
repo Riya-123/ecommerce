@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<div id="result"></div>
+<script>
+var q=localStorage.getItem("Amount");
+$.post('order1.php',{postname:q},function(data){
+$('#result').html(data);
+});
+
+//console.log(q);
+</script>
