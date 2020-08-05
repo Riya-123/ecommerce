@@ -1,0 +1,21 @@
+img{
+	max-width:50%;
+	height:80px;
+	background:lightblue;
+	background:radial-gradient(white 30%,lightblue 70%);
+}
+#cart_count
+{
+	
+	text-align:center;
+
+	border-radius:6rem;
+}
+
+shopping-cart{
+	padding:3% 0;
+}
+cont{
+	float:center;
+}
+	
